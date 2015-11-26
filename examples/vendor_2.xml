@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="catalogue.xsl" type="text/xsl"?>
+
+<products>
+
+
+<vendor webvendor="no" id="marge">
+    <vendor_name>Crazy Marge's Bed Emporium</vendor_name>
+    <advertisement>
+        <ad_sentence>
+        We never have a sale because we've got the lowest
+        prices in town!  Come in today and shop around. If
+        you can find lower prices anywhere Crazy Marge will
+        shave her husband's head!!!
+        </ad_sentence>
+        <ad_sentence>
+        We have all kinds, all sizes. Don't see what you
+        want?  Don't worry. We customize orders!
+        </ad_sentence>
+    </advertisement>
+
+    <product>
+        <product_id>3253435</product_id>
+        <short_desc>Sleepeazy Mattresses</short_desc>
+        <product_desc>per set, any size</product_desc>
+        <price pricetype="cost">$162</price>
+        <price pricetype="retail">$300</price>
+        <inventory location="showroom">23</inventory>
+        <inventory location="warehouse">15</inventory>
+        <giveaway>
+            <giveaway_item>
+            Free pillows
+            </giveaway_item>
+            <giveaway_desc>
+            with every set
+            </giveaway_desc>
+        </giveaway>
+    </product>
+
+    <product>
+        <product_id>5622345</product_id>
+        <short_desc>CozyComfort Mattresses</short_desc>
+        <price pricetype="starting">
+            starting at only $99.99
+        </price>
+        <item>
+            <product_desc>Queen</product_desc>
+            <price pricetype="cost">$59.00</price>
+            <price pricetype="sale">$69.00</price>
+            <price pricetype="retail">$99.00</price>
+        </item>
+        <item>
+            <product_desc>King</product_desc>
+            <price pricetype="cost">$159.00</price>
+            <price pricetype="sale">$209.00</price>
+            <price pricetype="retail">$359.00</price>
+        </item>
+        <giveaway>
+            <giveaway_item>
+            Free sheets
+            </giveaway_item>
+            <giveaway_desc>
+            with every set
+            </giveaway_desc>
+        </giveaway>
+    </product>
+
+    <product>
+        <product_id>39981234</product_id>
+        <short_desc>Floataway Waterbeds</short_desc>
+	<price pricetype="cost">TBD</price>
+        <giveaway>
+            <giveaway_item>
+            15 different styles to choose from
+            </giveaway_item>
+            <giveaway_desc>
+            with free delivery -- we'll take your
+            old mattress as a trade in!
+            </giveaway_desc>
+        </giveaway>
+    </product>
+
+</vendor>
+
+<special specialtype="weekly" vendor_id="marge">
+    This week only:  Round beds with rotating motors
+    starting at a price that will make your head spin.
+    Just talk to Crazy Marge, she'll tell you all about it!
+</special>
+
+</products>
+

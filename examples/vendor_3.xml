@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="catalogue.xsl" type="text/xsl"?>
+
+<products>
+
+
+<vendor webvendor="full" id="conners">
+   <vendor_name>Conners Chair Company</vendor_name>
+   <advertisement>
+       <ad_sentence>
+       Conners Chair Company presents their annual big three
+       day only chair sale. We're making way for our new
+       stock!  <b>All current inventory must go!</b>  Regular prices
+       slashed by up to 60%!
+        </ad_sentence>
+    </advertisement>
+
+    <product>
+        <product_id>QA3452</product_id>
+        <short_desc>Queen Anne Chair</short_desc>
+        <price pricetype="cost">$85</price>
+        <price pricetype="sale">$125</price>
+        <price pricetype="retail">$195</price>
+        <inventory color="royal blue" location="warehouse">
+            12</inventory>
+        <inventory color="royal blue" location="showroom">
+            5</inventory>
+        <inventory color="flower print" location="warehouse">
+            16</inventory>
+        <inventory color="flower print" location="showroom">
+            3</inventory>
+        <inventory color="seafoam green" location="warehouse">
+            20</inventory>
+        <inventory color="teal" location="warehouse">
+            14</inventory>
+        <inventory color="burgundy" location="warehouse">
+            34</inventory>
+        <giveaway>
+            <giveaway_item>
+            Matching Ottoman included
+            </giveaway_item>
+            <giveaway_desc>
+            while supplies last
+            </giveaway_desc>
+        </giveaway>
+    </product>
+
+    <product>
+        <product_id>RC2342</product_id>
+        <short_desc>Early American Rocking Chair</short_desc>
+        <product_desc>
+            with brown and tan plaid upholstery
+        </product_desc>
+        <price pricetype="cost">$75</price>
+        <price pricetype="sale">$62</price>
+        <price pricetype="retail">$120</price>
+        <inventory location="warehouse">40</inventory>
+        <inventory location="showroom">2</inventory>
+    </product>
+
+    <product>
+        <product_id>BR3452</product_id>
+        <short_desc>Bentwood Rocker</short_desc>
+        <price pricetype="cost">$125</price>
+        <price pricetype="sale">$160</price>
+        <price pricetype="retail">$210</price>
+        <inventory location="showroom">3</inventory>
+    </product>
+
+</vendor>
+
+ 
+</products>
+

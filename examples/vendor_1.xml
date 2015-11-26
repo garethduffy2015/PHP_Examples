@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="catalogue.xsl" type="text/xsl"?>
+
+<products>
+
+
+ <vendor webvendor="partial" id="wally">
+     <vendor_name>Wally's Wonderful World of Furniture</vendor_name>
+     <advertisement>
+         <ad_sentence>
+         Wally's Wonderful World of Furniture is closing its
+         doors forever. Last chance to get great bargains.
+         Make us an offer. We can't refuse!
+         </ad_sentence>
+     </advertisement>
+
+     <suite>
+         <product_id>CDRS</product_id>
+         <short_desc>Complete Dining Room Set</short_desc>
+         <long_desc>
+             This five piece dining site set features swivel
+             chairs with cushions in five exciting colors.
+         </long_desc>
+         <price pricetype="cost">$435</price>
+         <price pricetype="sale">$699</price>
+         <price pricetype="retail">$999</price>
+
+         <product>
+             <product_id>WWWdrt</product_id>
+             <short_desc>Dining Room Table</short_desc>
+             <price pricetype="cost">$105</price>
+             <price pricetype="sale">$145</price>
+             <price pricetype="retail">$195</price>
+             <inventory location="warehouse">132</inventory>
+         </product>
+         <product>
+           <product_id>WWWsc</product_id>
+            <short_desc>Swivel Chair</short_desc>
+            <price pricetype="cost">$50</price>
+            <price pricetype="sale">$45</price>
+            <price pricetype="retail">$99</price>
+            <inventory location="warehouse">300</inventory>
+       </product>
+        <product>
+            <product_id>WWWhch</product_id>
+           <short_desc>Hutch</short_desc>
+            <price pricetype="cost">$346</price>
+           <price pricetype="sale">$425</price>
+            <price pricetype="retail">$600</price>
+            <inventory location="warehouse">232</inventory>
+        </product>
+    </suite>
+
+    <product>
+        <short_desc>Hall Bench</short_desc>
+        <price pricetype="cost">$75</price>
+        <price pricetype="sale">$62</price>
+        <price pricetype="retail">$120</price>
+        <inventory location="warehouse">143</inventory>
+       <inventory location="showroom">5</inventory>
+    </product>
+
+    <product>
+        <product_id>SofaLoveSeat</product_id>
+        <short_desc>Sofa and Love Seat</short_desc>
+        <price color="magnolia print" pricetype="cost">
+             $125</price>
+        <price color="nautical print" pricetype="cost">
+             $145</price>
+        <price pricetype="sale">$175</price>
+        <price pricetype="retail">$250</price>
+        <inventory color="magnolia print" location="showroom">
+            3</inventory>
+        <inventory color="magnolia print" location="warehouse">
+             36</inventory>
+        <inventory color="nautical print" location="warehouse">
+             1</inventory>
+        <inventory color="nautical print" location="showroom">
+             432</inventory>
+   </product>
+
+</vendor>
+
+
+</products>
+
